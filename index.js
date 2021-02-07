@@ -246,10 +246,11 @@ client.on('group-participants-update', async (anu) => {
 					}
 					client.sendMessage(from, options, text)
 					break
-case 'lofi':
+case 'loli':
 					memein = await kagApi.memeindo()
-					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL9hZBPRo16fIhsIus3t1je2oAU23pQqBpfw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️amoo lofi'})
+					res = await fetchJson(`https://tobz-api.herokuapp.com/api/randomloli?apikey=${TobzApi}`, {method: 'get'})
+					buffer = await getBuffer(res.result)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: '️loli'})
 					break
                  case 'logoph':
 					var gh = body.slice(9)
