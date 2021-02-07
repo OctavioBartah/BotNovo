@@ -131,8 +131,8 @@ ____██_____██
 ║├> ${prefix}listabloq
 ║├────> números bloqueados
 ║├─────────────────────
-║├> ${prefix}lofi
-║├────> foto única de lofi
+║├> ${prefix}loli
+║├────> foto de loli
 ║├─────────────────────
 ║├> ${prefix}map 0000-0000 
 ║├> ${prefix} ${prefix}mapa 0000-0000 
